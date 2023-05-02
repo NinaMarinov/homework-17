@@ -26,29 +26,29 @@ nav{
 }
 ul{
     width: 50%;
-    margin-left: auto;
+    margin-left: 40%;
 }
 .content {
-    width: 25%;
+    width: 30%;
     display: inline-block;
-    padding: 5%;
+    padding: 3%;
+    text-align: left;
     /*margin: 0 auto;*/
  
 }
 .heroImg {
-    height: 400px;
-    padding: 5%;
-    object-position: right;
-    /*width: 25%;*/
+    width: 25%;
     display: inline-block;
+    object-position: top;
     /*margin: 0 auto;*/
 }
 .mainBody {
     /*display: block;*/
     /*margin-left: auto;
     margin-right: auto;*/      
-    padding: 10%;
-    /*text-align: center;*/
+    padding: 5%;
+    object-position: center;
+    text-align: center;
     
 }
 p {
@@ -62,15 +62,11 @@ p {
     padding: 10px 50px;
     border-radius: 8px;
     transition-duration: 0.4s;
+    margin-top: 10%;
 }
 .button:hover {
     background-color: #20B8CF;
     color: white;
-}
-footer{
-    color: #D9D9D9
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
 }
 .color1 {
     color: #FF9200;
@@ -80,4 +76,30 @@ footer{
 }
 .color3 {
     color: #108DA0;
+}
+.inline-block-footer{
+    display: inline-block;
+    vertical-align: top;
+    color: #A7A7A7; 
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.email{
+    color: #D9D9D9;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+   
+}
+.copyrightText{
+    color: #D9D9D9;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+footer {
+    padding: 5%;
+    text-align: center;
+
 }
